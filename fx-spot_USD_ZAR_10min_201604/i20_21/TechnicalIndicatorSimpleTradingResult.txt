@@ -1,0 +1,6 @@
+Dataset 	 bollinger 	 commodityChannelIndexIndicatorResult 	 SMA  	 parabolicSarResult 	 aroon 	 StochastichOscillatorK 	 williamR 	 ROC 	 RSI 	 EMA 	 MACD  
+fx-spot_USD_ZAR_10min_201604.txt 	0	1.6948	-0.7858	0	0	0	0	0.8202	0.1079	0.4358	1.7528
+fx-spot_USD_ZAR_10min_201604.txt 	0	1.6948	-0.7858	0	0	0	0	0.8202	0.1079	0.4358	1.7528
+fx-spot_USD_ZAR_10min_201604.txt 	0	1.6948	-0.7858	0	0	0	0	0.8202	0.1079	0.4358	1.7528
+fx-spot_USD_ZAR_10min_201604.txt 	0	1.6948	-0.7858	0	0	0	0	0.8202	0.1079	0.4358	1.7528
+fx-spot_USD_ZAR_10min_201604.txt 	0	1.6948	-0.7858	0	0	0	0	0.8202	0.1079	0.4358	1.7528

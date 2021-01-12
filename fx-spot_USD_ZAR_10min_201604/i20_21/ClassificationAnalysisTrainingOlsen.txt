@@ -1,0 +1,38 @@
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+fx-spot_USD_ZAR_10min_201604.txt	0.00010000	42	116.0	10	149.0	358.0	107	989	94.64105156723964	0.713	0.915	0.8014680589680588
+fx-spot_USD_ZAR_10min_201604.txt	0.00017500	110	398.0	0	160.0	201.0	50	877	87.34321550741163	0.311	1.000	0.4744469870327994
+fx-spot_USD_ZAR_10min_201604.txt	0.00067500	26	121.0	14	173.0	788.0	147	521	92.13051823416507	0.845	0.913	0.8776848691695108
+fx-spot_USD_ZAR_10min_201604.txt	0.00062500	23	89.0	15	172.0	760.0	149	557	92.99820466786356	0.861	0.909	0.8843491525423729
+fx-spot_USD_ZAR_10min_201604.txt	0.00052500	30	122.0	12	180.0	702.0	150	595	92.77310924369748	0.829	0.926	0.8748193732193732
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+fx-spot_USD_ZAR_10min_201604.txt	0.00010000	42	116.0	10	149.0	358.0	107	989	94.64105156723964	0.713	0.915	0.8014680589680588
+fx-spot_USD_ZAR_10min_201604.txt	0.00017500	110	398.0	0	160.0	201.0	50	877	87.34321550741163	0.311	1.000	0.4744469870327994
+fx-spot_USD_ZAR_10min_201604.txt	0.00067500	26	121.0	14	173.0	788.0	147	521	92.13051823416507	0.845	0.913	0.8776848691695108
+fx-spot_USD_ZAR_10min_201604.txt	0.00062500	23	89.0	15	172.0	760.0	149	557	92.99820466786356	0.861	0.909	0.8843491525423729
+fx-spot_USD_ZAR_10min_201604.txt	0.00052500	30	122.0	12	180.0	702.0	150	595	92.77310924369748	0.829	0.926	0.8748193732193732
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+fx-spot_USD_ZAR_10min_201604.txt	0.00010000	42	116.0	10	149.0	358.0	107	989	94.64105156723964	0.713	0.915	0.8014680589680588
+fx-spot_USD_ZAR_10min_201604.txt	0.00017500	110	398.0	0	160.0	201.0	50	877	87.34321550741163	0.311	1.000	0.4744469870327994
+fx-spot_USD_ZAR_10min_201604.txt	0.00067500	26	121.0	14	173.0	788.0	147	521	92.13051823416507	0.845	0.913	0.8776848691695108
+fx-spot_USD_ZAR_10min_201604.txt	0.00062500	23	89.0	15	172.0	760.0	149	557	92.99820466786356	0.861	0.909	0.8843491525423729
+fx-spot_USD_ZAR_10min_201604.txt	0.00052500	30	122.0	12	180.0	702.0	150	595	92.77310924369748	0.829	0.926	0.8748193732193732
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+fx-spot_USD_ZAR_10min_201604.txt	0.00010000	112	351.0	22	149.0	123.0	37	989	86.34984833164813	0.247	0.627	0.3543913043478261
+fx-spot_USD_ZAR_10min_201604.txt	0.00017500	118	427.0	17	160.0	172.0	42	877	84.49258836944128	0.261	0.712	0.38197738951695787
+fx-spot_USD_ZAR_10min_201604.txt	0.00067500	19	76.0	0	173.0	833.0	154	521	96.16122840690979	0.885	1.000	0.9389920424403183
+fx-spot_USD_ZAR_10min_201604.txt	0.00062500	103	451.0	17	172.0	398.0	69	557	78.27648114901257	0.399	0.802	0.5328859283930059
+fx-spot_USD_ZAR_10min_201604.txt	0.00052500	0	0.0	0	180.0	824.0	180	595	100.0	1.000	1.000	1.0
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+fx-spot_USD_ZAR_10min_201604.txt	0.00010000	42	116.0	10	149.0	358.0	107	989	94.64105156723964	0.713	0.915	0.8014680589680588
+fx-spot_USD_ZAR_10min_201604.txt	0.00017500	110	398.0	0	160.0	201.0	50	877	87.34321550741163	0.311	1.000	0.4744469870327994
+fx-spot_USD_ZAR_10min_201604.txt	0.00067500	26	121.0	14	173.0	788.0	147	521	92.13051823416507	0.845	0.913	0.8776848691695108
+fx-spot_USD_ZAR_10min_201604.txt	0.00062500	102	449.0	27	172.0	400.0	70	557	76.66068222621185	0.405	0.722	0.5189174800354924
+fx-spot_USD_ZAR_10min_201604.txt	0.00052500	0	0.0	0	180.0	824.0	180	595	100.0	1.000	1.000	1.0
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+fx-spot_USD_ZAR_10min_201604.txt	0.00010000	42	116.0	10	149.0	358.0	107	989	94.64105156723964	0.713	0.915	0.8014680589680588
+fx-spot_USD_ZAR_10min_201604.txt	0.00017500	110	398.0	0	160.0	201.0	50	877	87.34321550741163	0.311	1.000	0.4744469870327994
+fx-spot_USD_ZAR_10min_201604.txt	0.00067500	26	121.0	14	173.0	788.0	147	521	92.13051823416507	0.845	0.913	0.8776848691695108
+fx-spot_USD_ZAR_10min_201604.txt	0.00062500	23	89.0	15	172.0	760.0	149	557	92.99820466786356	0.861	0.909	0.8843491525423729
+fx-spot_USD_ZAR_10min_201604.txt	0.00052500	30	122.0	12	180.0	702.0	150	595	92.77310924369748	0.829	0.926	0.8748193732193732

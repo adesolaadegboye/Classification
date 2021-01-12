@@ -1,0 +1,1 @@
+((Math.exp(((Math.cos((X0)))/(Math.exp((Math.cos(((X0)*(4.93784247163406)))))))))+(Math.exp(((Math.cos((X0)))/(Math.exp((Math.cos(((X0)*(4.8193644152281685))))))))))

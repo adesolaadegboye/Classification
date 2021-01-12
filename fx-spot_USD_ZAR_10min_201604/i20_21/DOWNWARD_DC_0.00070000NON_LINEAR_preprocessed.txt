@@ -1,0 +1,1 @@
+(Math.exp(((Math.sin((Math.exp((Math.cos((Math.exp((Math.cos((Math.exp((Math.cos((Math.exp((((7.065581978026436)+(X0))-(6.561086957527351))))))))))))))))))*(Math.pow((Math.log((((7.065581978026436)+(X0))+(Math.cos((X0)))))),(Math.sin((Math.exp((Math.cos((Math.exp(((X0)-(6.561086957527351)))))))))))))))

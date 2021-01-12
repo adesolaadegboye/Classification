@@ -1,0 +1,6 @@
+Dataset 	 Threshold 	 TotalMissedOvershoot 	 TotalMissedOvershootLength 	 TotalAssumedOvershoot 	 PossibleOvershoot 	 FoundOvershootLength 	 TotalFoundOvershoot  	 totalDcEvent 	 testAccuracy 	 testPrecision 	 testRecall
+fx-spot_USD_ZAR_10min_201604.txt	fx-spot_USD_ZAR_10min_201604.txt	0.00010000	12	28.0	18	60.0	155.0	48	376	92.02127659574468	0.727	0.800	0.762
+fx-spot_USD_ZAR_10min_201604.txt	fx-spot_USD_ZAR_10min_201604.txt	0.00017500	13	44.0	0	63.0	174.0	50	342	96.19883040935673	1.000	0.794	0.885
+fx-spot_USD_ZAR_10min_201604.txt	fx-spot_USD_ZAR_10min_201604.txt	0.00067500	5	27.0	19	60.0	357.0	55	184	86.95652173913044	0.743	0.917	0.821
+fx-spot_USD_ZAR_10min_201604.txt	fx-spot_USD_ZAR_10min_201604.txt	0.00062500	5	16.0	23	60.0	351.0	55	200	86.0	0.705	0.917	0.797
+fx-spot_USD_ZAR_10min_201604.txt	fx-spot_USD_ZAR_10min_201604.txt	0.00052500	6	32.0	28	70.0	281.0	64	232	85.34482758620689	0.696	0.914	0.790

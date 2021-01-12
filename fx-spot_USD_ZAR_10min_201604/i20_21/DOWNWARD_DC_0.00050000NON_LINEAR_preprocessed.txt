@@ -1,0 +1,1 @@
+(Math.pow(((Math.log((X0)))+(Math.sin((Math.pow((X0),(Math.sin(((X0)+(X0))))))))),((Math.pow((0.8142631713814625),((Math.pow((X0),(Math.sin((X0)))))/((X0)/(X0)))))*((Math.pow((Math.sin((X0))),((Math.pow((X0),(Math.sin((X0)))))/((X0)/(X0)))))*(Math.log((X0)))))))

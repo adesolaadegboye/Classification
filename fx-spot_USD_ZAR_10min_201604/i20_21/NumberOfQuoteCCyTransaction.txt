@@ -1,0 +1,6 @@
+Dataset 	 PerfectForesight+GP 	 GP 	 Classifier+GP  	 Random+GP 	 GP+DCC 	 PerfectForesight+MF 	 MF  	 Classifier+MF 	 Random+MF 	 MF+DCC  	 PerfectForesight+Olsen 	 Olsen 	 Classifier+Olsen 	 Random+Olsen 	 Olsen+DCC  
+fx-spot_USD_ZAR_10min_201604.txt 	4	2	4	7	10	23	12	23	11	27	44	7	35	23	41	0	3	3
+fx-spot_USD_ZAR_10min_201604.txt 	46	5	34	27	34	46	27	46	24	48	30	4	40	24	38	0	3	3
+fx-spot_USD_ZAR_10min_201604.txt 	28	1	41	48	48	16	13	27	14	20	22	4	26	18	19	0	3	3
+fx-spot_USD_ZAR_10min_201604.txt 	40	3	25	41	41	15	11	16	8	25	19	8	24	17	20	0	3	3
+fx-spot_USD_ZAR_10min_201604.txt 	41	3	43	45	45	36	19	28	39	37	22	6	20	20	21	0	3	3

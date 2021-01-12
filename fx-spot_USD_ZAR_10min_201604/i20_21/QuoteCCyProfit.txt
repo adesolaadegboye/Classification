@@ -1,0 +1,6 @@
+Dataset 	 PerfectForesight+GP 	 GP 	 Classifier+GP  	 Random+GP 	 GP+DCC 	 PerfectForesight+MF 	 MF  	 Classifier+MF 	 Random+MF 	 MF+DCC  	 PerfectForesight+Olsen 	 Olsen 	 Classifier+Olsen 	 Random+Olsen 	 Olsen+DCC  
+fx-spot_USD_ZAR_10min_201604.txt 	NaN	NaN	NaN	NaN	NaN	8.627477807796974E7	NaN	NaN	NaN	5.215310865350934E7	NaN	NaN	NaN
+fx-spot_USD_ZAR_10min_201604.txt 	NaN	NaN	NaN	NaN	NaN	1.9631225468184036E8	NaN	NaN	NaN	2.9684328323187955E7	NaN	NaN	NaN
+fx-spot_USD_ZAR_10min_201604.txt 	NaN	NaN	NaN	NaN	NaN	9.436438957518601E7	NaN	NaN	NaN	2.964196366149232E7	NaN	NaN	NaN
+fx-spot_USD_ZAR_10min_201604.txt 	NaN	NaN	NaN	NaN	NaN	7.964976903444235E7	NaN	NaN	NaN	5.9492377441339485E7	NaN	NaN	NaN
+fx-spot_USD_ZAR_10min_201604.txt 	NaN	NaN	NaN	NaN	NaN	1.3792425232584253E8	NaN	NaN	NaN	4.5079734675210916E7	NaN	NaN	NaN
