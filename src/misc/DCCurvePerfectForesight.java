@@ -131,28 +131,9 @@ public class DCCurvePerfectForesight extends DCCurveRegression {
 				Collections.copy(curve_bestTreesInRunsUpward, treeHelperClass.bestTreesInRuns);
 				// SymbolicRegression.log.save(gpTreeName,
 				// treeAsInfixNotationString);
-				
-				Const.VARIABLE_EVALUATED = 1;	
-				treeHelperClass.bestTreesInRuns.clear();
-				treeHelperClass.getBestTreesForThreshold(uptrendEvent, Const.POP_SIZE, 1, Const.MAX_GENERATIONS,
-						thresholdStr);
-				
-				if (treeHelperClass.bestTreesInRuns.isEmpty() || treeHelperClass.bestTreesInRuns.size() < 1) {
-					System.out.println("treeHelperClass.bestTreesInRuns.isEmpty()");
-					System.exit(-1);
-				}
-				
-				Collections.sort(treeHelperClass.bestTreesInRuns, comparator);
-				bestUpWardEventMagnitudeTree = treeHelperClass.bestTreesInRuns.get(treeHelperClass.bestTreesInRuns.size() - 1);
-				upwardMagnitudePerf = bestUpWardEventMagnitudeTree.perfScore;
-				upwardTrendMagnitudeTreeString = bestUpWardEventMagnitudeTree.printAsInFixFunction();
-				
-				curve_bestTreesInRunsUpwardMagnitude.setSize(treeHelperClass.bestTreesInRuns.size());
-				Collections.copy(curve_bestTreesInRunsUpwardMagnitude, treeHelperClass.bestTreesInRuns);
-				
-				Const.VARIABLE_EVALUATED = 0;
-				treeHelperClass.bestTreesInRuns.clear();
+
 			}
+			treeHelperClass.bestTreesInRuns.clear();	
 
 			// Downward trend GP here
 			thresholdStr = String.format("%.8f", delta);
@@ -235,25 +216,7 @@ public class DCCurvePerfectForesight extends DCCurveRegression {
 				
 				
 				
-				Const.VARIABLE_EVALUATED = 1;	
-				treeHelperClass.bestTreesInRuns.clear();
-				treeHelperClass.getBestTreesForThreshold(downtrendEvent, Const.POP_SIZE, 1, Const.MAX_GENERATIONS,
-						thresholdStr);
 				
-				if (treeHelperClass.bestTreesInRuns.isEmpty() || treeHelperClass.bestTreesInRuns.size() < 1) {
-					System.out.println("treeHelperClass.bestTreesInRuns.isEmpty()");
-					System.exit(-1);
-				}
-				
-				Collections.sort(treeHelperClass.bestTreesInRuns, comparator);
-				bestDownWardEventMagnitudeTree = treeHelperClass.bestTreesInRuns.get(treeHelperClass.bestTreesInRuns.size() - 1);
-				downwardMagnitudePerf = bestDownWardEventMagnitudeTree.perfScore;
-				downwardTrendMagnitudeTreeString = bestDownWardEventMagnitudeTree.printAsInFixFunction();
-				
-				curve_bestTreesInRunsDownwardMagnitude.setSize(treeHelperClass.bestTreesInRuns.size());
-				Collections.copy(curve_bestTreesInRunsDownwardMagnitude, treeHelperClass.bestTreesInRuns);
-				
-				Const.VARIABLE_EVALUATED = 0;
 				treeHelperClass.bestTreesInRuns.clear();	
 			}
 

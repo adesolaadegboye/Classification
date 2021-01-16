@@ -737,6 +737,11 @@ public class TreeHelperClass {
 			//Double doubleObject = new Double(tree.eval(dc,magnitude)); // in order t
 			Double doubleObject = new Double(tree.eval(variableSize)); // in order to cast
 																// to int
+			
+			if (Double.compare(Double.MAX_VALUE, doubleObject) == 0){
+				
+				return Double.MAX_VALUE;
+			}
 			treeEvaluation = doubleObject.doubleValue();
 
 			err = os - treeEvaluation;
