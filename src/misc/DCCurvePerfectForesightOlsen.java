@@ -18,8 +18,7 @@ public class DCCurvePerfectForesightOlsen extends DCCurveRegression {
 		meanRatio = new double[1];
 		meanRatio[0] = 2.0;
 		
-		meanMagnitudeRatio = new double[1];
-		meanMagnitudeRatio[0] = 1.0;
+		
 		
 	}
 

@@ -19,10 +19,6 @@ public class DCCurvePerfectForesightMF extends DCCurveRegression {
 		meanRatio[0] = 0.0;
 		meanRatio[1] = 0.0;
 		
-
-		meanMagnitudeRatio =  new double[2];
-		meanMagnitudeRatio[0] = 0.0;
-		meanMagnitudeRatio[1] = 0.0;
 		
 	}
 
@@ -47,7 +43,7 @@ public class DCCurvePerfectForesightMF extends DCCurveRegression {
 
 		meanRatio[0] = 0.0;
 		medianRatio[0] = 0.0;
-		meanMagnitudeRatio[0] =0.0;
+		
 		double meanDownturn = 0.0;
 		double meanDownwardOvershoot = 0.0;
 		
@@ -56,7 +52,7 @@ public class DCCurvePerfectForesightMF extends DCCurveRegression {
 		// upward overshoots
 		meanRatio[1] = 0.0;
 		medianRatio[1] = 0.0;
-		meanMagnitudeRatio[1]= 0.0;
+		
 		double meanUpturn = 0.0;
 		double meanUpwardOvershoot = 0.0;
 

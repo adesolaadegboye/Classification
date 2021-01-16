@@ -18,8 +18,7 @@ public class DCCurveClassificationOlsen extends DCCurveRegression {
 		meanRatio = new double[1];
 		meanRatio[0] = 0.0;
 		
-		meanMagnitudeRatio =  new double[1];
-		meanMagnitudeRatio[0] = 0.0;
+		
 	}
 
 	public void build(Double[] values, double delta, String GPTreeFileName, Event[] events, PreProcess preprocess) {
@@ -27,7 +26,7 @@ public class DCCurveClassificationOlsen extends DCCurveRegression {
 		thresholdString = thresholdStr;
 		
 		meanRatio[0] = 2.0;
-		meanMagnitudeRatio[0] = 1.0;
+		
 		if ( events == null || events.length <1)
 			return;
 		

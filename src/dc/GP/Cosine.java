@@ -62,6 +62,7 @@ public class Cosine extends AbstractNode implements Cloneable{
 					 Double.isInfinite(var1) || Double.isNaN(var1))
 				return Double.MAX_VALUE;
 			
+			
 			double evalValue = Math.cos(var1);
 		//	if (Double.isNaN(evalValue)){	
 		//		System.out.println("Is NAN");

@@ -623,7 +623,7 @@ public class DCCurvePerfectForesight extends DCCurveRegression {
 		for (int i = 1; i < trainingEvents.length; i++) {
 
 			int tradePoint = 0;
-			Double magnitude = new Double(trainingGpMagnitudePrediction[i]);
+			
 			Double dcPt = new Double(trainingGpPrediction[i]);
 			Double zeroOs = new Double(0.0);
 
@@ -634,30 +634,12 @@ public class DCCurvePerfectForesight extends DCCurveRegression {
 										// overshoot
 			{
 				tradePoint = trainingEvents[i].end;
-				if (trainingEvents[i].type == Type.Upturn )
-				{
-					if (magnitude.equals(zeroOs))
-						magnitude =  Double.parseDouble(FReader.dataRecordInFileArray.get(trainingEvents[i].end).askPrice);
-				}
-				else
-				{
-					if (magnitude.equals(zeroOs))
-						magnitude =  Double.parseDouble(FReader.dataRecordInFileArray.get(trainingEvents[i].end).bidPrice);
-				}
+				
 			}
 			else
 			{
 				tradePoint = trainingEvents[i].end + (int) Math.ceil(trainingGpPrediction[i]);
-				if (trainingEvents[i].type == Type.Upturn )
-				{
-					if (trainingEvents[i].overshoot == null)
-						magnitude =  Double.parseDouble(FReader.dataRecordInFileArray.get(trainingEvents[i].end).askPrice);
-				}
-				else
-				{
-					if (trainingEvents[i].overshoot == null)
-						magnitude =  Double.parseDouble(FReader.dataRecordInFileArray.get(trainingEvents[i].end).bidPrice);
-				}
+				
 					
 			}
 			if (i + 1 > trainingEvents.length - 1)
@@ -760,7 +742,8 @@ public class DCCurvePerfectForesight extends DCCurveRegression {
 	@Override
 	void estimateTraining(PreProcess preprocess) {
 		trainingGpPrediction = new double[trainingEvents.length];
-		trainingGpMagnitudePrediction = new double[trainingEvents.length];
+		
+
 	
 
 		for (int outputIndex = 0; outputIndex < trainingEvents.length - 2; outputIndex++) {
@@ -843,14 +826,6 @@ public class DCCurvePerfectForesight extends DCCurveRegression {
 	}
 	
 	
-	public double getCombinedRegressionError(){
-		double rtnCode = Double.MAX_VALUE ;
-		rtnCode = (Math.sqrt((downarddistPerf *downarddistPerf) + (upwarddistPerf*upwarddistPerf) +
-				(downwardMagnitudePerf * downwardMagnitudePerf) + 
-				(upwardMagnitudePerf * upwardMagnitudePerf)))/4.0;
-		
-		
-		return rtnCode;
-	}
+	
 
 }

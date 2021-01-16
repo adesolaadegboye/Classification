@@ -34,7 +34,7 @@ public abstract class DCCurveRegression {
 	protected double[] predictionMagnitudeWithClassifier;
 	
 	protected double[] trainingGpPrediction;
-	protected double[] trainingGpMagnitudePrediction;
+	
 	
 	
 	double predictionRmse;
@@ -74,19 +74,19 @@ public abstract class DCCurveRegression {
 
 	AbstractNode gptree = null;
 	AbstractNode bestUpWardEventTree = null;
-	AbstractNode bestUpWardEventMagnitudeTree = null;
+	
 	AbstractNode bestDownWardEventTree = null;
-	AbstractNode bestDownWardEventMagnitudeTree = null;
+	
 	
 	AbstractNode bestclassifierBasedUpWardEventTree = null;
 	AbstractNode bestclassifierBasedDownWardEventTree = null;
 	
 	protected String upwardTrendTreeString = null;
-	protected String upwardTrendMagnitudeTreeString = null;
+	
 	protected String downwardTrendTreeString = null;
-	protected String downwardTrendMagnitudeTreeString = null;
+	
 	protected double[] meanRatio = null;
-	protected double[] meanMagnitudeRatio = null;
+	
 	String trendTreeString = null;
 	
 
@@ -109,8 +109,7 @@ public abstract class DCCurveRegression {
 	
 	protected double downarddistPerf;
 	protected double upwarddistPerf;
-	protected double downwardMagnitudePerf;
-	protected double upwardMagnitudePerf;
+	
 	
 	/*
 	 * 
@@ -123,8 +122,7 @@ public abstract class DCCurveRegression {
 	 */
 	double[] medianRatio = new double[2];
 	public Vector<AbstractNode> curve_bestTreesInRunsUpward = new Vector<AbstractNode>();
-	public Vector<AbstractNode> curve_bestTreesInRunsUpwardMagnitude = new Vector<AbstractNode>();
-	public Vector<AbstractNode> curve_bestTreesInRunsDownwardMagnitude = new Vector<AbstractNode>();
+	
 	public Vector<AbstractNode> curve_bestTreesInRuns = new Vector<AbstractNode>();
 	public Vector<AbstractNode> curve_bestTreesInRunsDownward = new Vector<AbstractNode>();
 	public String runsFitnessStrings = "";
@@ -409,13 +407,6 @@ public abstract class DCCurveRegression {
 		return downwardTrendTreeString;
 	}
 	
-	public String getUpwardTrendMagnitudeTreeString(){
-		return upwardTrendMagnitudeTreeString;
-	}
-	
-	public String getDownwardTrendMagnitudeTreeString(){
-		return downwardTrendMagnitudeTreeString;
-	}
 	
 	public String getThresholdString (){
 		return thresholdString;
@@ -433,17 +424,6 @@ public abstract class DCCurveRegression {
 		return  meanRatio[1];
 	}
 	
-	public double getDownwardMagnitudeRatio(){
-		return  meanMagnitudeRatio[0];
-	}
-	
-	public double getSingleMagnitudeRatio(){
-		return  meanMagnitudeRatio[0];
-	}
-	
-	public double getUpwardMagnitudeRatio(){
-		return  meanMagnitudeRatio[1];
-	}
 	
 	
 	protected void otherTradeCalculations(){
